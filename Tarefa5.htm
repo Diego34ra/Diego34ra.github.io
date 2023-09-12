@@ -3,59 +3,61 @@
 <head>
     <title>Formulário de Registro de Usuário</title>
 </head>
-<body>
-    <form>
-        <fieldset style="max-width: 300px;">
-            <legend><h2>Registro de Usuário</h2></legend>
-            <p>
-                <label for="nome">Nome:</label>
-                <input type="text" style="margin-left: 33px;" id="nome" name="nome" size="25" autocomplete="off" required>
-            </p>
-            
-            <p>
-                <label for="sobrenome">Sobrenome:</label>
-                <input type="text" id="sobrenome" name="sobrenome" size="25" autocomplete="off" required>
-            </p>
-            
-            <p>
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" style="margin-left: 29px;" name="email" size="25" autocomplete="off" required>
-            </p>
-            
-            <p>
-                <label for="telefone">Telefone:</label>
-                <input type="tel" id="telefone" style="margin-left: 17px;" name="telefone" size="25" autocomplete="off" required>
-            </p>
-            
-            <p>
-                <label for="senha">Senha:</label>
-                <input type="password" style="margin-left: 32px;" id="senha" name="senha" size="25" autocomplete="off" required>
-            </p>
-            
-            <p>
-                <label for="confirmarSenha">Confirmar Senha:</label>
-                <input type="password" id="confirmarSenha" name="confirmarSenha" autocomplete="off" required>
-            </p>
-            
-            <p>
-                <label for="dataNascimento">Data de Nascimento:</label>
-                <input type="date" id="dataNascimento" name="dataNascimento" required>
-            </p>
+<body  style= "display: flex;justify-content: center;align-items: center;">
+    <font face="arial">
+        <form>
+            <fieldset style="max-width: 300px;">
+                <legend><h2>Registro de Usuário</h2></legend>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" style="margin-left: 33px;" id="nome" name="nome" size="25" autocomplete="off" required>
+                </p>
+                
+                <p>
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" id="sobrenome" name="sobrenome" size="25" autocomplete="off" required>
+                </p>
+                
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" style="margin-left: 29px;" name="email" size="25" autocomplete="off" required>
+                </p>
+                
+                <p>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" style="margin-left: 17px;" name="telefone" size="25" autocomplete="off" required>
+                </p>
+                
+                <p>
+                    <label for="senha">Senha:</label>
+                    <input type="password" style="margin-left: 32px;" id="senha" name="senha" size="25" autocomplete="off" required>
+                </p>
+                
+                <p>
+                    <label for="confirmarSenha">Confirmar Senha:</label>
+                    <input type="password" id="confirmarSenha" name="confirmarSenha" autocomplete="off" required>
+                </p>
+                
+                <p>
+                    <label for="dataNascimento">Data de Nascimento:</label>
+                    <input type="date" id="dataNascimento" name="dataNascimento" required>
+                </p>
 
-            <p>
-                <label for="genero">Gênero:</label>
-                <select id="genero" name="genero">
-                    <option value="masculino">Masculino</option>
-                    <option value="feminino">Feminino</option>
-                    <option value="outro">Outro</option>
-                </select>
-            </p>
-            
+                <p>
+                    <label for="genero">Gênero:</label>
+                    <select id="genero" name="genero">
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </p>
+                
 
-            <p align="center">
-                <input type="submit" value="Registrar">
-            </p>
-        </fieldset>
-    </form>
+                <p align="center">
+                    <input type="submit" value="Registrar">
+                </p>
+            </fieldset>
+        </form>
+    </font>
 </body>
 </html>

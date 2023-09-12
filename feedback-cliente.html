@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<title>Feedback do Cliente</title>
+	<link rel="shortcut icon" href="imagens/formulario.png"/>
+</head>
+<body style= "display: flex;justify-content: center;align-items: center;">
+	<font face="arial">
+		<form style="max-width: 400px;" >
+			<fieldset style="height: 600px;">
+				<legend><h2>Feedback do Cliente</h2></legend>
+				<center>Adoraríamos saber mais sobre sua experiência como cliente. Sinta-se à vontade
+					para compartilhar sugestões, ideias e o que mais achar relevante.
+				</center>
+				<p>
+					<label for="nome">Nome</label><br/>
+					<input id="nome" type="text" placeholder="Insira seu nome" autocomplete="off" required="true" size="45" style="height: 20px;" />
+				</p>
+				<p>
+					<label for="Sobrenome">Sobrenome</label><br/>
+					<input id="Sobrenome" type="text" placeholder="Insira seu sobrenome" autocomplete=off required=true size="45" style="height: 20px;"/>
+				</p>
+				<p>
+					<label for="email">Email</label><br/>
+					<input id="email" type="Email" placeholder="Insira seu email" autocomplete=off required=true size="45" style="height: 20px;"/>
+				</p>
+
+				<p>
+					Como você avaliaria nossos serviços?<br/>
+					<input type=radio name = "avaliacao" required>Excelente</input> <br/>
+					<input type=radio name = "avaliacao">Muito bom</input> <br/>
+					<input type=radio name = "avaliacao">Bom</input> <br/>
+					<input type=radio name = "avaliacao">Justo</input> <br/>
+					<input type=radio name = "avaliacao">Ruim</input> <br/>
+				</p>
+				<p>
+					<label for="experiencia">Descreva sua experiência</label><br/>
+					<textarea id="experiencia" style="resize: none" placeholder="Insira seu texto" autocomplete=off cols="45" rows="4" required=true resize=none></textarea>
+				</p>
+				<center>
+					<button type=submit>Enviar</button>
+					<button type=reset>Limpar</button>
+				</center>
+			
+			</fieldset>
+		</form>
+	</font>
+</body>
+</html>

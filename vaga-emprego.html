@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Vagas de Emprego</title>
+    <link rel="shortcut icon" href="imagens/formulario.png"/>
+</head>
+<body style= "display: flex;justify-content: center;align-items: center;">
+	<font face = "arial">
+        <form>
+            <fieldset style="max-width: 465px;">
+                <legend><h2>Vaga de Emprego</h2></legend>
+                
+                    <p align="justify">
+                        Obrigado pelo seu interesse em trabalhar conosco. Por favor, confira abaixo as oportunidades de trabalho disponíveis, 
+                        que atendem aos seus critérios e envie sua candidatura preenchendo o Formulário de Vaga de emprego
+                    </p>
+                <p>
+                    <label for="Nome">Nome</label>
+                    <input type="text" id="Nome" style="margin-left: 15px;" placeholder="Nome" size="22" autocomplete="off" required/>&nbsp;&nbsp;&nbsp;
+                    <input type="text" id="Sobrenome" style="margin-left: 3px;" placeholder="Último" size="22" autocomplete="off" required/>
+                </p>
+                <p>
+                    <label for="Email">E-mail </label>
+                    <input type="Email" id="Email" style="margin-left: 13px;" placeholder="E-mail" size="52" autocomplete="off" required/>
+                </p>
+                <p>
+                    <label for="">Para qual posição você está
+                        se candidatando ?
+                    </label>
+                    <select id="Vaga" name="Vaga" style="margin-left: 12px;" required>
+                        <option value="">Selecione</option>
+                        <option value="A">Atendente</option>
+                        <option value="B">Gestor</option>
+                        <option value="C">Analista de Sistemas</option>
+                    </select>
+                </p>
+                <p>
+                    Data de início disponível:
+                    <input type="date" required/>
+                </p>
+                <p>
+                    Qual a sua situação atual de emprego?<br/>
+                    <input type="radio" name="situacao" required>Empregado</input>
+                    <input type="radio" style="margin-left: 27px;" name="situacao">Autônomo</input><br/>
+                    <input type="radio" name="situacao">Desempregado</input>
+                    <input type="radio" name="situacao">Estudante</input>
+                </p>
+                <p>
+                    Envie seu currículo:
+                    <input type="file" required/>
+                </p>
+                <p align="center">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </p>
+            </fieldset>
+        </form>
+    </font>
+</body>
+</html>

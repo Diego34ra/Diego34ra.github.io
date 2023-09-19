@@ -16,8 +16,13 @@ h1 {
 }
 
 p {
-    color: #666;
+    color: black;
     line-height: 1.5;
+    text-align: justify;
+}
+
+a {
+    color: black;
 }
 
 .code-example {
@@ -30,4 +35,12 @@ p {
     color: #333;
     overflow-x: auto;
     border-radius: 10px;
+}
+
+.alinhar-teste {
+    margin: 10;
+    padding: 20px;
+    overflow: hidden;
+    float: left;
+    position: fixed;
 }

@@ -4,17 +4,49 @@
     <meta charset="UTF-8"><!-- atribui o charset para a página -->
     <title>Atividade - Web I</title><!-- atribui título a página -->
     <link rel="shortcut icon" href="imagens/ico.png"> <!-- atribui o ícone a página -->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
 </head>
 <body bgcolor="white"> <!-- corpo da página, o bgcolor atribui cor ao fundo do corpo -->
-    <a href="manual-Angular.html">Manual do Angular</a></br>
-    <a href="lista-nao-ordenada.html">Lista não ordenada</a></br>
-    <a href="lista-ordenada.html">Lista ordenada</a></br>
-    <a href="registro-usuario.html">Registro de Usuário</a></br>
-    <a href="feedback-cliente.html">Feedback do Cliente</a></br>
-    <a href="vaga-emprego.html">Vagas de Emprego</a></br>
-    <a href="formulario-contato.html">Formulário de Contato</a></br>
-    <a href="cadastro-usuario.html">Cadastro de Usuario</a></br>
-    <a href="atividadeCss/atividadeCss.html">Css</a>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <nav>
+        <div class="nav-wrapper" style="background-color: #7001F5;">
+        <a href="#" class="brand-logo" style="padding-left: 10px;">Menu</a>
+        <a href="#" data-activates="menu-mobile" class="button-collapse">
+            <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="manual-Angular.html">Angular</a></li>
+            <li><a href="lista-nao-ordenada.html">Lista não ordenada</a></li>
+            <li><a href="lista-ordenada.html">Lista ordenada</a></li>
+            <li><a href="registro-usuario.html">Registro de Usuário</a></li>
+            <li><a href="feedback-cliente.html">Feedback do Cliente</a></li>
+            <li><a href="vaga-emprego.html">Vagas de Emprego</a></li>
+            <li><a href="formulario-contato.html">Formulário de Contato</a></li>
+            <li><a href="cadastro-usuario.html">Cadastro de Usuario</a></li>
+            <li><a href="atividadeCss/atividadeCss.html">Css</a></li>
+        </ul>
+        <ul class="side-nav" id="menu-mobile">
+            <li><a href="manual-Angular.html">Angular</a></li>
+            <li><a href="lista-nao-ordenada.html">Lista não ordenada</a></li>
+            <li><a href="lista-ordenada.html">Lista ordenada</a></li>
+            <li><a href="registro-usuario.html">Registro de Usuário</a></li>
+            <li><a href="feedback-cliente.html">Feedback do Cliente</a></li>
+            <li><a href="vaga-emprego.html">Vagas de Emprego</a></li>
+            <li><a href="formulario-contato.html">Formulário de Contato</a></li>
+            <li><a href="cadastro-usuario.html">Cadastro de Usuario</a></li>
+            <li><a href="atividadeCss/atividadeCss.html">Css</a></li>
+        </ul>
+        </div>
+        <script>
+            $(function(){
+                $(".button-collapse").sideNav();
+            });
+       </script>
+    </nav>
     <font size = "3" face = "Arial"> <!-- a tag fonte funciona para alterar o tipo de fonte, tamanho, cor e etc.
         o "size" é para alterar o tamanho da fonte e o "face" para alterar o
         estilo da fonte.-->
